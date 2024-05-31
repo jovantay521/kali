@@ -1,0 +1,3 @@
+dotfiles/vim/.vim/backups/*
+dotfiles/vim/.vim/swaps/*
+dotfiles/vim/.vim/undo/*
