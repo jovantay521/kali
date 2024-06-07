@@ -1,3 +1,6 @@
 dotfiles/vim/.vim/backups/*
+!dotfiles/vim/.vim/backups/.placeholder
 dotfiles/vim/.vim/swaps/*
+!dotfiles/vim/.vim/swaps/.placeholder
 dotfiles/vim/.vim/undo/*
+!dotfiles/vim/.vim/undo/.placeholder
