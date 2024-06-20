@@ -4,11 +4,8 @@
 sudo apt update && sudo apt full-upgrade -y
 
 # install packages
-sudo apt install xorg curl vim chromium stow qt5ct xdg-user-dirs i3 rofi thunar qterminal kali-linux-default kali-themes zathura sxiv xclip flameshot -y 
+sudo apt install xorg curl vim chromium stow qt5ct i3 rofi thunar terminator kali-linux-default zathura sxiv flameshot -y 
 
 # stow dotfiles
 cd $HOME/Repositories/kali/dotfiles
 stow -t $HOME *
-
-# make user directories
-xdg-user-dirs-update
