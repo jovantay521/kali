@@ -29,14 +29,6 @@ set expandtab                 " Use spaces instead of tabs
 set autoindent                " Copy indent from current line when starting a new line
 set smartindent               " Smart autoindenting for C-like programs
 
-" Backup and undo
-set undofile                  " Enable persistent undo
-set backup                    " Enable backups
-set writebackup               " Enable backup before overwriting a file
-set backupdir=~/.vim/backups  " Directory to store backup files
-set directory=~/.vim/swaps    " Directory to store swap files
-set undodir=~/.vim/undo       " Directory to store undo files
-
 " Visual
 syntax on                     " Enable syntax highlighting
 filetype plugin indent on     " Enable file type detection, plugins, and indentation
